@@ -21,8 +21,8 @@ const inputSchema = new mongoose.Schema({
         required: true
     },
     createdAt: {
-        type: String,
-        default: moment.utc().local().format('YYYY-MM-DD hh:mm:ss')
+        type: Date,
+        default: Date.now
     }
 })
 
