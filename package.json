@@ -4,9 +4,9 @@
   "description": "Backend da aplicacao de controle de caixa",
   "main": "src/loader.js",
   "scripts": {
-    "start": "pm2 start src/loader.js",
+    "start": "node src/loader.js",
     "dev": "nodemon src/loader.js",
-    "prod": "pm2 start src/loader.js"
+    "prod": "node src/loader.js"
   },
   "keywords": [
     "node",
