@@ -1,5 +1,4 @@
 const restful = require('node-restful')
-const moment = require('moment')
 
 const mongoose = restful.mongoose
 
