@@ -6,4 +6,7 @@ module.exports = function(server) {
 
     const inputService = require('../api/input/inputService')
     inputService.register(router, '/inputs')
+
+    const flowService = require('../api/flow/flowService')
+    flowService.register(router, '/flows')
 }
